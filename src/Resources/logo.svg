@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 33.333px;
+        font-family: Montserrat;
+        font-weight: 700;
+      }
+
+      .cls-1 {
+        fill: #264653;
+      }
+
+      .cls-2 {
+        fill: #2a9d8f;
+      }
+    </style>
+  </defs>
+  <text id="F" class="cls-1" transform="translate(-2.17 26.101) scale(0.953)">F</text>
+  <text id="F-2" data-name="F" class="cls-2" transform="translate(34.592 6.623) rotate(180) scale(0.954 0.954)">F</text>
+</svg>
