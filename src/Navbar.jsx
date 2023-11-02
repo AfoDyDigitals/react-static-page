@@ -1,5 +1,5 @@
 import React from 'react'
-import "./style.css"
+import "./Style.css"
 import Logo from './Logo'
 import MenuBar from "../public/MenuBar.svg"
 

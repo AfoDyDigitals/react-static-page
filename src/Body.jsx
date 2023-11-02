@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroImage from './Resources/HeroImage.svg'
-import "./style.css"
+import "./Style.css"
 
 
 function Body() {

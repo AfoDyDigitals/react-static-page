@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './Button'
-import "./style.css"
+import "./Style.css"
 
 
 function Card(props) {
