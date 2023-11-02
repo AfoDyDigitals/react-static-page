@@ -6,11 +6,11 @@ function SideBar() {
   return (
       <>
       <div>
-            <div class="SidebarBG" style={{ backgroundImage: `url(${SidebarBG})`, backgroundSize: 'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center', width: '200px', padding: '10px', marginTop: '20px', height: '10vh', marginRight: '30px'
+            <div className="SidebarBG" style={{ backgroundImage: `url(${SidebarBG})`, backgroundSize: 'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center', width: '200px', padding: '10px', marginTop: '20px', height: '10vh', marginRight: '30px'
                 }}> 
             </div>
-            <div class="SideBarStyle">
-                <div class="box">
+            <div className="SideBarStyle">
+                <div className="box">
                     <div>Football</div>
                     <hr />
                     <div>Track and field</div>
@@ -21,7 +21,7 @@ function SideBar() {
                     <hr />
                 </div>
 
-                <div class="box">
+                <div className="box">
                     <div>Physical fitness</div>
                     <hr />
                     <div>Mental fitness</div>
@@ -32,7 +32,7 @@ function SideBar() {
                     <hr />
                 </div>
 
-                <div class="box">
+                <div className="box">
                     <div>Announcements</div>
                     <hr />
                     <div>Upcoming Events</div>
@@ -44,6 +44,7 @@ function SideBar() {
                 </div>
             </div>
         </div>
+
     </>
   )
 }

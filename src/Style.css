@@ -1,9 +1,9 @@
 .navBar {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     /* border-bottom:  solid rgb(38, 70, 83) 1px; */
-    /* border-bottom:  solid rgb(42, 157,143) 1px; */
-
+    border-bottom:  solid rgb(42, 157,143) 1px;
     /* position: fixed; */
+    color: white;
     z-index: 1;
     width: 100vw;
     height: 50px;
@@ -13,31 +13,34 @@
     justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-   
+    overflow: none;
   }
   
   .logo {
-    margin-left: 100px;
-    width: 30px;
+    margin-left: 24px;
+    width: 150px;
+    height: 40px;
+    padding: none;
   }
   
   .menuGroup {
     display: flex;
-    align-items: left;
+    /* align-items: left; */
     align-items: center;
-    gap: 40px;
-    justify-content: center;
+    /* gap: 40px; */
+    /* justify-content: center; */
     padding: 20px;
     font-size: 15px;
-    margin-right: 100px; 
+    /* margin-right: 10px;  */
   
   }
   
   .menus {
     display: flex;
     gap: 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     align-items: center;
+    justify-content: center;
   }
   
   .navBarBtnSmallScreen {
@@ -47,7 +50,9 @@
   
   .container {
     display: flex;
-    justify-content: space-between;  }
+    justify-content: space-between;
+    margin: 10px;  
+  }
 
   .Button {
     background-color: rgb(42, 157,143);
@@ -72,7 +77,7 @@
     border-radius: 30px;
     text-align: center;
     color: rgb(255, 255, 255);
-    box-shadow: 10px 8px 5px rgb(38, 70, 83);
+    box-shadow: 8px 5px 5px rgb(38, 70, 83);
   }
 
   .CTA {
@@ -92,7 +97,7 @@
     border-radius: 30px;
     text-align: center;
     color: rgb(255, 255, 255);
-    box-shadow: 10px 8px 5px rgb(38, 70, 83);
+    box-shadow: 8px 5px 5px rgb(38, 70, 83);
   }
 
 .MainContent {
@@ -104,6 +109,15 @@
 
 .Herotext{
     text-align: center;
+    display: block;
+    background-image: url(./Resources/HeroImage.svg);
+    background-size: cover;
+    border-radius: 30px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 70vw;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,8 +130,8 @@ p{
 }
   .SideBarStyle {
     display: block;
-    background-color: rgba(19, 77, 70, 0.377);
-    color: rgb(38, 70, 83);
+    background-color: rgba(55, 97, 116, 0.821);
+    color: rgb(255, 255, 255);
     padding: 10px;
     margin-right: 30px;
     gap: 50px;
@@ -139,6 +153,7 @@ p{
     align-items: center;
     margin-top: 50px;
     width: 90%;
+    color: white;
     /* padding: 50px; */
   }
 
@@ -153,7 +168,7 @@ p{
     padding: 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     /* background-color: rgba(227, 227, 227, 0.398); */
    
 }
@@ -165,6 +180,7 @@ p{
     align-items: center;
     border-radius: 20px;
     padding: 5px;
+    color: white;
     /* background-color: rgba(189, 189, 189, 0.636); */
 }
 .cardBox {
@@ -211,7 +227,8 @@ p{
       justify-content: center;
       padding: 20px;
       font-size: 15px;
-      margin-right: 60px;}
+      margin-right: 60px;
+    }
     
     .menus {
       display: none;
@@ -219,6 +236,8 @@ p{
   
     .navBarBtnSmallScreen {
       display: block;
+      width: 32px;
+      height: 32px;
     }
 
     .SideBarStyle {
@@ -227,6 +246,27 @@ p{
 
     .SidebarBG {
         display: none;
+    }
+
+    .container {
+      display: grid;
+      /* justify-content: space-between;   */
+    }
+    .Herotext{
+      text-align: center;
+      display: block;
+      background-image: url(./Resources/HeroImage.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 60vh;
+      width: 95vw;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      overflow: none;
     }
   }
 

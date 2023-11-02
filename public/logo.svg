@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1411" height="750" viewBox="0 0 1411 750">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 75px;
+      }
+
+      .cls-1 {
+        fill: #264653;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: Montserrat;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #2a9d8f;
+      }
+
+      .cls-3 {
+        font-size: 100px;
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <text id="f" class="cls-1" transform="translate(18.238 459.89) scale(4.777)">f</text>
+  <text id="f-2" data-name="f" class="cls-2" transform="translate(117.346 558.997) scale(4.777)">f</text>
+  <text id="fitness_fanatics" data-name="fitness fanatics" class="cls-3" transform="translate(304.378 433.174) scale(1.367)">fitness fanatics</text>
+</svg>

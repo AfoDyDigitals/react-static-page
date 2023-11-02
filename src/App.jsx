@@ -1,10 +1,8 @@
-import reactLogo from './assets/react.svg'
 import React from 'react'
 import NavBar from './Navbar'
 import SideBar from './SideBar'
 import Body from './Body'
 import Card from './Card'
-import Button from './Button'
 import Footer from './Footer'
 import Description from './Description'
 
@@ -15,12 +13,12 @@ function App() {
   return (
       <>
       <NavBar />
-      <div class="container">
-        <div class="MainContent">
+      <div className="container">
+        <div className="MainContent">
           <div>
             <Body />
             <Description />
-            <div class="card">
+            <div className="card">
               <Card 
                 image = "/Football.svg" 
                 copy="Experience the excitement of the game."

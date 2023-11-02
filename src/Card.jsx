@@ -1,11 +1,12 @@
 import React from 'react'
+import Button from './Button'
 
 function Card(props) {
     return (
       <>
-          <div class="cardContent">
-              <div class="cardBox">
-                  <div > <img class='cardImage' src={props.image} /> </div>
+          <div className="cardContent">
+              <div className="cardBox">
+                  <div > <img className='cardImage' src={props.image} /> </div>
                   <div>{props.copy}</div>
                   <Button />
               </div>
