@@ -5,7 +5,7 @@ import Body from './Body'
 import Card from './Card'
 import Footer from './Footer'
 import Description from './Description'
-
+import "./style.css"
 import './App.css'
 
 function App() {

@@ -1,5 +1,7 @@
 import React from 'react'
 import HeroImage from './Resources/HeroImage.svg'
+import "./style.css"
+
 
 function Body() {
   return (
